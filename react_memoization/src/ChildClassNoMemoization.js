@@ -1,6 +1,6 @@
-import React, { PureComponent } from "react";
+import React, { Component } from "react";
 
-class ChildClassWithMemoization extends PureComponent {
+class ChildClassWithMemoization extends Component {
   render() {
     console.log("Child render");
     return (
